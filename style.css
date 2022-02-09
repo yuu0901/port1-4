@@ -3,11 +3,81 @@
 /*----------------------------------------------------------*/
 body {
     background-image: url(back.png);
+    background-attachment: fixed;
     color: white;
     font-size: 16px;
+    font-weight: bold;
 }
 
 img {
     width: 100%;
     height: auto;
   }
+
+/*----------------------------------------------------------*/
+/* container */
+/*----------------------------------------------------------*/
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*----------------------------------------------------------*/
+/* header */
+/*----------------------------------------------------------*/
+.header {
+    height: 200px;
+}
+
+.header-title {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.header-text {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.link {
+    color: orange;
+}
+
+.link:hover {
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+
+/*----------------------------------------------------------*/
+/* main */
+/*----------------------------------------------------------*/
+.main__inner {
+    margin: 20px;
+}
+
+.main-title {
+    background: #212529;
+    border: 5px solid white;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 10px;
+    opacity: .8;
+    width: 40%;
+}
+
+.home1 {
+    width: 45%;
+}
+
+/*----------------------------------------------------------*/
+/* footer */
+/*----------------------------------------------------------*/
+.footer {
+    background-color: #212529;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
